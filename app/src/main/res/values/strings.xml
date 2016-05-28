@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">MiTour</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps">MiTour</string>
+    <string name="title_activity_places">Lugares</string>
+
+    <string name="title_section1">Tour</string>
+    <string name="title_section2">Lugares</string>
+    <string name="title_section3">Acerca de</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
 </resources>

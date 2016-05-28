@@ -2,76 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-6ed6890d4f7aff1d2aedf153332f546d721f520f.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-dc53aabd13f817ecf7ae54552c2dab2adacbc84c.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-33eb278b0e2e423351ee36752bcbc95d286fe303.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-c35c7e3fcce72b9ccd75c1c3225a974d5b59db65.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-204b9d8831fe6aa3a616e38b54b864f84fee5caf.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-c14fd872dabd2e6d93e13a00a773e744e00c518e.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-220cb17563eb8b941d9650ea6608443956bf4069.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-5a1ec16171e47ee5c29a2fd8033cb5022e2161a5.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-1689d30352d03b7c3e6323372d34dbcf73ed7ee4.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-40c9513e74d99eada849028b231101e90ce68dae.jar" />
-    </item>
-    <item
         jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -86,11 +16,18 @@
         <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-a0d119f6787d5db6d766934220fdc7a949f1acdf.jar" />
     </item>
     <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-c2a5d6f6ef9109dbfdad24af86c53187bbf6835d.jar" />
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-5a1ec16171e47ee5c29a2fd8033cb5022e2161a5.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-37bf2851d6f9111252f7980f46774a8362a643fc.jar" />
     </item>
     <item
         jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
@@ -100,20 +37,6 @@
         <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-830cb64eddac6b0c8c9d0f7ca5a3d6f3c732584d.jar" />
     </item>
     <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-2eb30cb249d091c7a93330ad9a7c0e0af2b8a0d6.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-b0f773a5fba84d8624cbd85c55c61fe2f1a28859.jar" />
-    </item>
-    <item
         jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -121,25 +44,18 @@
         <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-37b52302b66341298e5013b00fafa2b29fe0dfb0.jar" />
     </item>
     <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-cd0777ae9f5be96d6880dae5e2309aed4d00a34d.jar" />
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-c14fd872dabd2e6d93e13a00a773e744e00c518e.jar" />
     </item>
     <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-b740ef7c57bed8f99943a8b26c3bc84ebc0da3ff.jar" />
-    </item>
-    <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-d1ef1bc54406f0367a202e17ffb2b95c13aad865.jar" />
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-204b9d8831fe6aa3a616e38b54b864f84fee5caf.jar" />
     </item>
     <item
         jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
@@ -149,18 +65,32 @@
         <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-9a3aaa41f3bd14fb15efec415e09c71192355199.jar" />
     </item>
     <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-0e3a29465c96d815263c7dec2b5bf2d7de4cd703.jar" />
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-c2a5d6f6ef9109dbfdad24af86c53187bbf6835d.jar" />
     </item>
     <item
-        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-37bf2851d6f9111252f7980f46774a8362a643fc.jar" />
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-b0f773a5fba84d8624cbd85c55c61fe2f1a28859.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-2eb30cb249d091c7a93330ad9a7c0e0af2b8a0d6.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-d1ef1bc54406f0367a202e17ffb2b95c13aad865.jar" />
     </item>
     <item
         jar="/Users/constantinomora/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
@@ -177,6 +107,69 @@
         <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-f02fd011a1aba93a07b1ee18b8c301de29e5fed4.jar" />
     </item>
     <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-220cb17563eb8b941d9650ea6608443956bf4069.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-c35c7e3fcce72b9ccd75c1c3225a974d5b59db65.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-dc53aabd13f817ecf7ae54552c2dab2adacbc84c.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-b740ef7c57bed8f99943a8b26c3bc84ebc0da3ff.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-6ed6890d4f7aff1d2aedf153332f546d721f520f.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-cd0777ae9f5be96d6880dae5e2309aed4d00a34d.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-1689d30352d03b7c3e6323372d34dbcf73ed7ee4.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-40c9513e74d99eada849028b231101e90ce68dae.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-0e3a29465c96d815263c7dec2b5bf2d7de4cd703.jar" />
+    </item>
+    <item
         jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -189,6 +182,13 @@
         revision="23.0.0"
         sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
         <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-6cf07cc24a97fc2b967e040e94200d3cf9887dba.jar" />
+    </item>
+    <item
+        jar="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/constantinomora/AndroidStudioProjects/MiTour/app/build/intermediates/pre-dexed/debug/classes-33eb278b0e2e423351ee36752bcbc95d286fe303.jar" />
     </item>
 
 </items>

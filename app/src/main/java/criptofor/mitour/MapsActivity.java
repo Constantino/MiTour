@@ -3,6 +3,7 @@ package criptofor.mitour;
 import android.graphics.Color;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -18,6 +19,13 @@ import com.google.android.gms.maps.model.Polygon;
 import com.google.android.gms.maps.model.PolygonOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class MapsActivity extends FragmentActivity {
 
@@ -59,7 +67,11 @@ public class MapsActivity extends FragmentActivity {
                     .getMap();
             // Check if we were successful in obtaining the map.
             if (mMap != null) {
-                setUpMap();
+                try {
+                    setUpMap();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
@@ -70,7 +82,7 @@ public class MapsActivity extends FragmentActivity {
      * <p/>
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
-    private void setUpMap() {
+    private void setUpMap() throws IOException {
 
         LatLng lMacroPlaza = new LatLng(25.667788, -100.310228);
         LatLng lTeatroCiudad = new LatLng(25.668932, -100.309084);
@@ -79,6 +91,15 @@ public class MapsActivity extends FragmentActivity {
         LatLng lMuseoMetro = new LatLng(25.666232, -100.311260);
         LatLng lMuseoMarco = new LatLng(25.664736, -100.309780);
         LatLng lMuseoPalacio = new LatLng(25.672482, -100.309550);
+
+        //Obtener la matriz de tiempos
+        //https://maps.googleapis.com/maps/api/distancematrix/json?origins=fundidora+monterrey&destinations=cola+de+caballo+monterrey&mode=car&language=en-EN
+        //<exp>
+
+
+
+        //</exp>
+
 
         mMap.addMarker(new MarkerOptions().position(lMacroPlaza).
                 title("Macro Plaza").
@@ -138,5 +159,9 @@ public class MapsActivity extends FragmentActivity {
         //Polygon polygon = mMap.addPolygon(rectOptions);
 
         mMap.setMyLocationEnabled(true);
+    }
+
+    private void readStream(InputStream in) {
+        return;
     }
 }
