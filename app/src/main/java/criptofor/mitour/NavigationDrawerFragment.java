@@ -1,5 +1,6 @@
 package criptofor.mitour;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.app.Activity;
 import android.support.v7.app.ActionBar;
@@ -22,12 +23,26 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.Circle;
+import com.google.android.gms.maps.model.CircleOptions;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
+
+import java.io.IOException;
+
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.
  * See the <a href="https://developer.android.com/design/patterns/navigation-drawer.html#Interaction">
  * design guidelines</a> for a complete explanation of the behaviors implemented here.
  */
 public class NavigationDrawerFragment extends Fragment {
+
+    private GoogleMap mMap = null; // Might be null if Google Play services APK is not available.
 
     /**
      * Remember the position of the selected item.
@@ -249,6 +264,7 @@ public class NavigationDrawerFragment extends Fragment {
 
         if (item.getItemId() == R.id.action_example) {
             Toast.makeText(getActivity(), "Example action.", Toast.LENGTH_SHORT).show();
+
             return true;
         }
 
@@ -279,4 +295,86 @@ public class NavigationDrawerFragment extends Fragment {
          */
         void onNavigationDrawerItemSelected(int position);
     }
+
+
+    private void setUpMap() throws IOException {
+
+        LatLng lMacroPlaza = new LatLng(25.667788, -100.310228);
+        LatLng lTeatroCiudad = new LatLng(25.668932, -100.309084);
+        LatLng lMuseoHistoria =  new LatLng(25.671587, -100.306799);
+        LatLng lMuseoNoreste = new LatLng(25.670789, -100.306708);
+        LatLng lMuseoMetro = new LatLng(25.666232, -100.311260);
+        LatLng lMuseoMarco = new LatLng(25.664736, -100.309780);
+        LatLng lMuseoPalacio = new LatLng(25.672482, -100.309550);
+
+        //Obtener la matriz de tiempos
+        //https://maps.googleapis.com/maps/api/distancematrix/json?origins=fundidora+monterrey&destinations=cola+de+caballo+monterrey&mode=car&language=en-EN
+        //<exp>
+
+
+
+        //</exp>
+
+
+        mMap.addMarker(new MarkerOptions().position(lMacroPlaza).
+                title("Macro Plaza").
+                snippet("#1, 5/5, llegada: 9:00am, partida: 10:00am"));
+        mMap.addMarker(new MarkerOptions().position(lTeatroCiudad).title("Teatro de la ciudad")
+                .snippet("#2, 4/5, llegada: 10:10am, partida: 11:30am"));
+        mMap.addMarker(new MarkerOptions().position(lMuseoHistoria).title("Museo de historia")
+                .snippet("#3, 4/5, llegada: 11:40am, partida: 01:00pm"));
+        mMap.addMarker(new MarkerOptions().position(lMuseoNoreste).title("Museo del noreste")
+                .snippet("#4, 5/5, llegada: 01:10pm, partida: 03:00pm"));
+        mMap.addMarker(new MarkerOptions().position(lMuseoMetro).title("Museo Metropolitano de Monterrey")
+                .snippet("#5, 3/5, llegada: 3:15pm, partida: 04:15am"));
+        mMap.addMarker(new MarkerOptions().position(lMuseoMarco).title("Museo Marco")
+                .snippet("#6, 5/5, llegada: 04:25pm, partida: 05:25pm"));
+        mMap.addMarker(new MarkerOptions().position(lMuseoPalacio).title("Museo del palacio")
+                .snippet("#7, 3/5, llegada: 5:40pm, partida: 06:40pm"));
+
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lMacroPlaza, 15.8f));
+
+        // Instantiates a new Polygon object and adds points to define a rectangle
+        /*
+        PolygonOptions rectOptions = new PolygonOptions()
+                .add(
+                        lMacroPlaza,
+                        lTeatroCiudad,
+                        lMuseoHistoria,
+                        lMuseoNoreste,
+                        lMuseoMetro,
+                        lMuseoMarco,
+                        lMuseoPalacio
+                )
+                .strokeColor(Color.BLUE);
+        */
+
+        Polyline line = mMap.addPolyline(new PolylineOptions()
+                        .add(
+                                lMacroPlaza,
+                                lTeatroCiudad,
+                                lMuseoHistoria,
+                                lMuseoNoreste,
+                                lMuseoMetro,
+                                lMuseoMarco,
+                                lMuseoPalacio
+                        )
+                        .width(5)
+                        .color(Color.RED)
+                        .geodesic(true)
+        );
+
+        Circle circle = mMap.addCircle(new CircleOptions()
+                .center(lMacroPlaza)
+                .radius(70)
+                .fillColor(Color.argb(50,0,0,200)))
+                ;
+
+        // Get back the mutable Polygon
+        //Polygon polygon = mMap.addPolygon(rectOptions);
+
+        mMap.setMyLocationEnabled(true);
+    }
+
+
 }
